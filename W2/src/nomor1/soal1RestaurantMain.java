@@ -22,6 +22,8 @@ public class soal1RestaurantMain {
         System.out.println("=== DAFTAR MENU ===");
         menu.tampilMenuMakanan();
 
+        System.out.println("\nPesanan 1 : index = 0, jumlah = 5");
+        System.out.println("Pesanan 2 : index = 1, jumlah = 50");
         System.out.println("\n=== PESAN MENU ===");
         menu.pesanMenu(0, 5);  //Pesan 5 Pizza
         menu.pesanMenu(1, 50); //Gagal karena stok kurang
