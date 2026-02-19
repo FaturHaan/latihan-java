@@ -21,9 +21,9 @@ public class soal2_Main {
         soal2_3EmployeeType partTime = new soal2_3EmployeeType("Part Time");
 
         //Membuat Employee
-        soal2_2Employee emp1 = new soal2_2Employee(1, "Alice", itDept, fullTime, 5000);
-        soal2_2Employee emp2 = new soal2_2Employee(2, "Bob", hrDept, partTime, 3000);
-        soal2_2Employee emp3 = new soal2_2Employee(3, "Charlie", itDept, partTime, 3500);
+        soal2_2Employee emp1 = new soal2_2Employee(1, "Adit", itDept, fullTime, 5000);
+        soal2_2Employee emp2 = new soal2_2Employee(2, "Riski", hrDept, partTime, 3000);
+        soal2_2Employee emp3 = new soal2_2Employee(3, "Taufik", itDept, partTime, 3500);
 
         //Menggunakan Employee Service
         soal2_4EmployeeService empService = new soal2_4EmployeeService();
